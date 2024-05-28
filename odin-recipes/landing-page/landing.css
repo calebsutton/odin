@@ -1,0 +1,136 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: #1F2937;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    color: #F9FaF8;
+    width: 80%;
+    margin: 0 auto;
+}
+.header > h3 {
+    font-size: 24px;
+    float: left;
+    padding-left: 10px;
+}
+.header > ul li {
+    float: right;
+    list-style-type: none;
+    display: inline;
+    padding-right: 10px;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FaF8;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.hero > img {
+    margin: auto;
+    border-radius: 8px;
+}
+.hero > h1 {
+    font-size: 48px;
+    font-style: bold;
+}
+.carousel-container, .cta-container {
+    background-color: #FFFFFF;
+}
+.carousel > ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.carousel > ul > li {
+    width: 160px;
+}
+.carousel > h2 {
+    text-align: center;
+}
+.carousel > ul > li > div > img {
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.carousel > ul > li > div > p {
+    display: block;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.carousel, .cta {
+    width: 80%;
+    margin: 0 auto;
+}
+.cta-inset {
+    background-color: #3882F6;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.testemonial-container {
+    background-color: #E5E7EB;
+}
+.testemonial {
+    width: 80%;
+    margin: 0 auto;
+}
+.testemonial > p.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937
+}
+.testemonial > p.author {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    float: right;
+}
+.cta-inset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.cta-inset > div {
+    padding-right: 60px;
+}
+.cta-inset > button {
+    text-align: center;
+    float: right;
+    height: 30px;
+    width: 80px;
+
+}
+.footer {
+    color: #FFFFFF;
+    width: 80%;
+    margin: 0 auto;
+}
+.footer > p {
+    float: right;
+}
+button {
+    background-color: #3882F6;
+    color: #FFFFFF;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: white;
+    border-style: solid;
+}
