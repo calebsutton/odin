@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Rock Paper Scissors</h1>
+        
+        <div id="game">
+            <h3>Choose your weapon!</h3>
+            <button onclick="playRound('rock')">Rock</button>
+            <button onclick="playRound('paper')">Paper</button>
+            <button onclick="playRound('scissors')">Scissors</button>
+        </div>
+        <div id="end" hidden>
+            <h2>Game Over!</h2>
+            <p id="finalResult">No games played yet!</p>
+            <button onclick="resetGame()">Play Again</button>
+        </div>
+        <div id="results">
+            <p>Last Round Results: <span id="roundResult">No round played yet!</span></p>
+            <p>Round #: <span id="roundNumber">1</span> / 5</p>
+            <p>Player Score: <span id="playerScore">0</span></p>
+            <p>Computer Score: <span id="computerScore">0</span></p>
+        </div>
+    </body>
+</html>
